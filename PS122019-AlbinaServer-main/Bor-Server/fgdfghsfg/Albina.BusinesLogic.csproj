@@ -4,4 +4,15 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.21" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Albina.DataAccess.Core\Bor.DataAccess.Core.csproj" />
+    <ProjectReference Include="..\sfgsg\Albina.BusinesLogic.Core.csproj" />
+    <ProjectReference Include="..\Share\Shareds.csproj" />
+  </ItemGroup>
+
 </Project>
